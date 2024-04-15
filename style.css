@@ -83,3 +83,16 @@ li a{
     cursor: pointer;
 }
 
+.icons > img:hover{
+    animation: animetionIcons 0.5s infinite alternate;
+}
+
+@keyframes animetionIcons{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-5px);
+    }
+}
+
